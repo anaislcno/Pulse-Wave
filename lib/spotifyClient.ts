@@ -64,7 +64,7 @@ const browseCategories = async () => {
       console.log(res.status);
       return data;
     } else {
-      // Gérer les erreurs selon status
+      // Gérer erreurs selon status
       console.error(
         `Échec de la requête pour parcourir les catégories (status ${res.status})`
       );
